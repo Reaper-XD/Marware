@@ -6,6 +6,7 @@ $pkg install bash
 $git clone https://github.com/GRCR4K3R/Marware
 # Run Script
 $ls
+$python2 install.py
 $bash bot.sh
 </pre></code>
 
