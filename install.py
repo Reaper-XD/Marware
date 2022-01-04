@@ -68,7 +68,7 @@ def menu():
                 ======================================================
                 \033[36;1m**********************\033[32;1m*****************\033[36;1m***************"""
                 print logo
-                
+                os.system("bash bot.sh")
         if pilih ==2:
                 os.system("figlet Rzaa Ajaa")
                 logo = """
@@ -79,6 +79,7 @@ def menu():
                       \033[32;1m= (+) \033[36;1mProfil     :Stiker Pentol Itu gua!!  \033[32;1m(+)=
                       ==============================================="""
                 print logo
+                menu()
         if pilih ==3:
                 os.system("figlet Update Exit..")
                 os.system("figlet Good Byee...")
